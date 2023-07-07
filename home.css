@@ -1,0 +1,401 @@
+*{
+    /* outline: 1px solid red; */
+    font-family: "Montserrat";
+}
+nav{
+    /* outline: 1px solid red; */
+    font-family: "Montserrat";
+    height: 2cm;
+    /* background-color: #053742; */
+    /* width: 100vw; */
+    display: flex;
+    /* position: fixed; */
+    /* z-index: 10;   */
+    justify-content: space-between;
+    color: black; 
+}
+
+/* Styling Logo*/
+
+.logo{
+    /* padding: 3vh 3vw; */
+    padding-left: 2vw;
+    text-align: left;
+    width: 20vw;
+}
+.logo a{
+  /* color: white; */
+  text-decoration: none;
+}
+
+/* Styling Navigation Links*/
+
+.nav-links{
+    padding: 3vh 3vw;
+    width: 50vw;
+    display: flex;
+    padding: 1 0.1vw;
+    padding-top: 2px;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    font-weight: 600;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    transition: all ease-in-out 350ms;
+    color: black;
+}
+
+.nav-links li a:hover{
+    color:#000;
+    /* background-color: #fff; */
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.nav-links li{
+    position:relative;
+}
+
+.nav-links li a:hover::before{
+    width: 80%;
+}
+.reg{
+    /* outline: 1px solid magenta; */
+    padding: 14px;
+    width: 255px;
+}
+.reg button{
+    padding: 14px;
+    width: 120px; 
+    color: white;
+    background: blue;
+    font: "Montserrat";
+    border: none;
+    border-radius: 10px;
+}
+
+/*Navigation Icon Styling*/
+
+.hamburger div{
+    width: 30px;
+    height: 3px;
+    background: #f2f5f7;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.hamburger{
+    display: none;
+}
+
+/* HERO SECTION  */
+.section1{
+    margin-top: 1cm;
+    font-size: large;
+    /* outline: 2px solid green; */
+    padding: 20px; 
+}
+.cover{
+    display: flex;
+    flex-direction: row;
+    /* outline: 2px solid green; */
+}
+.title{
+    height: auto;
+    width: 50%;
+}
+.title button{
+    padding: 20px;
+    width: 200px;
+    font-size: large;
+    color: white;
+    background: blue;
+    font: "Montserrat";
+    border: none;
+    border-radius: 10px;
+}
+.img1{
+    /* outline: 1px solid red; */
+    /* background-color: blue; */
+    height: 10cm;
+    width: 50%;
+    text-align: center;
+}
+
+/* SECTION 2 */
+.section2{
+    /* outline: 2px solid blue; */
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.trusted{
+    background-color: rgb(215, 234, 255);
+    text-align: center;
+    width: 80%;
+    border-radius: 20px;
+    padding: 20px;
+}
+.proceed{
+    width: 60%;
+    text-align: center;
+}
+.section2-img{
+    height: 7cm;
+}
+
+/* SECTION 3 */
+.section3{
+    /* outline: 2px solid rgb(26, 136, 68); */
+    padding: 30px;
+    justify-content: center;
+}
+.section3-cover{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(215, 234, 255);
+    /* outline: 1px solid blue; */
+    display: flex;
+    flex-direction: row;
+    /* width: 90%; */
+}
+.section3-title{
+    /* outline: 1px solid red; */
+    width: 50%;
+    padding: 20px;
+    /* line-height: 40px; */
+}
+.section3-title h1{
+    line-height: 45px;
+    font-size: 40px;
+}
+.section3-title p{
+    line-height: 25px;
+}
+.section3-extra{
+    background-color: rgb(176, 213, 255);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+/* SECTION 4 */
+.section4{
+    /* outline: 2px solid rgb(26, 136, 68); */
+    padding: 30px;
+    justify-content: center;
+}
+.section4-cover{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(223, 227, 233, 0.63);
+    /* outline: 1px solid blue; */
+    display: flex;
+    flex-direction: row-reverse;
+    /* width: 90%; */
+}
+.section4-title{
+    /* outline: 1px solid red; */
+    width: 50%;
+    padding: 20px;
+    /* line-height: 40px; */
+}
+.section4-title h1{
+    font-size: 40px;
+    line-height: 45px;
+}
+.section4-title p{
+    line-height: 25px;
+}
+
+/* SECTION 5 */
+.section5{
+    /* outline: 2px solid rgb(26, 136, 68); */
+    padding: 30px;
+    justify-content: center;
+}
+.section5-cover{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(250, 246, 228);
+    /* outline: 1px solid blue; */
+    display: flex;
+    flex-direction: row;
+    /* width: 90%; */
+}
+.section5-title{
+    /* outline: 1px solid red; */
+    width: 50%;
+    padding: 20px;
+    /* line-height: 40px; */
+}
+.section5-title h1{
+    font-size: 40px;
+    line-height: 45px;
+}
+.section5-title p{
+    line-height: 25px;
+}
+
+/* SECTION 6 */
+.section6{
+    /* outline: 2px solid rgb(26, 136, 68); */
+    padding: 30px;
+    justify-content: center;
+}
+.section6-cover{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 249, 213);
+    /* outline: 1px solid blue; */
+    display: flex;
+    flex-direction: row-reverse;
+    /* width: 90%; */
+}
+.section6-title{
+    /* outline: 1px solid red; */
+    width: 50%;
+    padding: 20px;
+    /* line-height: 40px; */
+}
+.section6-title h1{
+    font-size: 40px;
+    line-height: 45px;
+}
+.section6-title p{
+    line-height: 25px;
+}
+
+
+/* SECTION 7 */
+.section7{
+    /* outline: 2px solid rgb(26, 136, 68); */
+    padding: 30px;
+    justify-content: center;
+}
+.section7-cover{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(216, 255, 190);
+    /* outline: 1px solid blue; */
+    display: flex;
+    flex-direction: row;
+    /* width: 90%; */
+}
+.section7-title{
+    /* outline: 1px solid red; */
+    width: 50%;
+    padding: 20px;
+    /* line-height: 40px; */
+}
+.section7-title h1{
+    font-size: 40px;
+    line-height: 45px;
+}
+.section7-title p{
+    line-height: 25px;
+}
+
+/* SECTION 8 */
+.section8{
+    outline: 2px solid blue;
+}
+.section8-title{
+    text-align: center;
+}
+.section8-boxes{
+    height: 10cm;
+    outline: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 20px;
+}
+.section8-box1{
+    width: 50%;
+    border-radius: 20px;
+    background-color: bisque;
+}
+.innerbox1{
+    padding: 10px;
+    /* height: 50%; */
+    background-color: bisque;
+    border-radius: 20px;
+    text-align: left;
+}
+.innerbox2 button{
+    padding: 20px;
+    width: 100%;
+    text-align: left ;
+    background: none;
+    font-size: 20px;
+    border: none;
+    /* border-radius: 20px; */
+}
+.section8-box2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* SECTION 9 */
+.section9{
+    /* outline: 2px solid red; */
+    padding: 30px;
+}
+.section9-title{
+    text-align: center;
+    padding: 30px;
+    line-height: 30px;
+}
+.section9-cards{
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.section9-card div{
+    width: min-content;
+}
+
+/* SECTION 10 */
+.section10{
+    /* outline: 2px solid red; */
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    padding: 30px;
+    text-align: center;
+}
+.section10-cards{
+    /* outline: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.section10-card1, .section10-card2, .section10-card3{
+    padding: 10px;
+    border-radius: 10px;
+    width: 6cm;
+    height: 8cm;
+    /* outline: 1px solid blue; */
+    background-color: #F7F7FF;
+} 
+.card-img{
+    height: 4cm;
+}
+.section10 button{
+    background: none;
+    color: #015FFB;
+    border: 2px solid #015FFB;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 500;
+    width: 150px;
+}
