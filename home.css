@@ -1,16 +1,11 @@
 *{
-    /* outline: 1px solid red; */
     font-family: "Montserrat";
+    /* outline: 1px solid red; */
 }
 nav{
-    /* outline: 1px solid red; */
     font-family: "Montserrat";
     height: 2cm;
-    /* background-color: #053742; */
-    /* width: 100vw; */
     display: flex;
-    /* position: fixed; */
-    /* z-index: 10;   */
     justify-content: space-between;
     color: black; 
 }
@@ -18,13 +13,11 @@ nav{
 /* Styling Logo*/
 
 .logo{
-    /* padding: 3vh 3vw; */
     padding-left: 2vw;
     text-align: left;
     width: 20vw;
 }
 .logo a{
-  /* color: white; */
   text-decoration: none;
 }
 
@@ -49,8 +42,8 @@ nav{
 }
 
 .nav-links li a:hover{
-    color:#000;
-    /* background-color: #fff; */
+    border-bottom: 2px solid blue;
+    color: blue;
     padding: 10px;
     border-radius: 50px;
 }
@@ -63,7 +56,6 @@ nav{
     width: 80%;
 }
 .reg{
-    /* outline: 1px solid magenta; */
     padding: 14px;
     width: 255px;
 }
@@ -91,17 +83,20 @@ nav{
     display: none;
 }
 
-/* HERO SECTION  */
+
+
+
+
+/*  SECTION 1  */
 .section1{
     margin-top: 1cm;
     font-size: large;
-    /* outline: 2px solid green; */
     padding: 20px; 
+    color: #002e47;  
 }
 .cover{
     display: flex;
     flex-direction: row;
-    /* outline: 2px solid green; */
 }
 .title{
     height: auto;
@@ -118,8 +113,6 @@ nav{
     border-radius: 10px;
 }
 .img1{
-    /* outline: 1px solid red; */
-    /* background-color: blue; */
     height: 10cm;
     width: 50%;
     text-align: center;
@@ -127,12 +120,12 @@ nav{
 
 /* SECTION 2 */
 .section2{
-    /* outline: 2px solid blue; */
     padding: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #002e47;  
     gap: 50px;
 }
 .trusted{
@@ -152,24 +145,20 @@ nav{
 
 /* SECTION 3 */
 .section3{
-    /* outline: 2px solid rgb(26, 136, 68); */
     padding: 30px;
+    color: #002e47;  
     justify-content: center;
 }
 .section3-cover{
     padding: 20px;
     border-radius: 20px;
     background-color: rgb(215, 234, 255);
-    /* outline: 1px solid blue; */
     display: flex;
     flex-direction: row;
-    /* width: 90%; */
 }
 .section3-title{
-    /* outline: 1px solid red; */
     width: 50%;
     padding: 20px;
-    /* line-height: 40px; */
 }
 .section3-title h1{
     line-height: 45px;
@@ -187,24 +176,20 @@ nav{
 
 /* SECTION 4 */
 .section4{
-    /* outline: 2px solid rgb(26, 136, 68); */
     padding: 30px;
+    color: #002e47;  
     justify-content: center;
 }
 .section4-cover{
     padding: 20px;
     border-radius: 20px;
     background-color: rgba(223, 227, 233, 0.63);
-    /* outline: 1px solid blue; */
     display: flex;
     flex-direction: row-reverse;
-    /* width: 90%; */
 }
 .section4-title{
-    /* outline: 1px solid red; */
     width: 50%;
     padding: 20px;
-    /* line-height: 40px; */
 }
 .section4-title h1{
     font-size: 40px;
@@ -216,7 +201,7 @@ nav{
 
 /* SECTION 5 */
 .section5{
-    /* outline: 2px solid rgb(26, 136, 68); */
+    color: #002e47;  
     padding: 30px;
     justify-content: center;
 }
@@ -224,16 +209,12 @@ nav{
     padding: 20px;
     border-radius: 20px;
     background-color: rgb(250, 246, 228);
-    /* outline: 1px solid blue; */
     display: flex;
     flex-direction: row;
-    /* width: 90%; */
 }
 .section5-title{
-    /* outline: 1px solid red; */
     width: 50%;
     padding: 20px;
-    /* line-height: 40px; */
 }
 .section5-title h1{
     font-size: 40px;
@@ -245,24 +226,20 @@ nav{
 
 /* SECTION 6 */
 .section6{
-    /* outline: 2px solid rgb(26, 136, 68); */
     padding: 30px;
+    color: #002e47;  
     justify-content: center;
 }
 .section6-cover{
     padding: 20px;
     border-radius: 20px;
     background-color: rgb(255, 249, 213);
-    /* outline: 1px solid blue; */
     display: flex;
     flex-direction: row-reverse;
-    /* width: 90%; */
 }
 .section6-title{
-    /* outline: 1px solid red; */
     width: 50%;
     padding: 20px;
-    /* line-height: 40px; */
 }
 .section6-title h1{
     font-size: 40px;
@@ -275,24 +252,20 @@ nav{
 
 /* SECTION 7 */
 .section7{
-    /* outline: 2px solid rgb(26, 136, 68); */
     padding: 30px;
+    color: #002e47;  
     justify-content: center;
 }
 .section7-cover{
     padding: 20px;
     border-radius: 20px;
     background-color: rgb(216, 255, 190);
-    /* outline: 1px solid blue; */
     display: flex;
     flex-direction: row;
-    /* width: 90%; */
 }
 .section7-title{
-    /* outline: 1px solid red; */
     width: 50%;
     padding: 20px;
-    /* line-height: 40px; */
 }
 .section7-title h1{
     font-size: 40px;
@@ -304,6 +277,7 @@ nav{
 
 /* SECTION 8 */
 .section8{
+    color: #002e47;  
     outline: 2px solid blue;
 }
 .section8-title{
@@ -325,7 +299,6 @@ nav{
 }
 .innerbox1{
     padding: 10px;
-    /* height: 50%; */
     background-color: bisque;
     border-radius: 20px;
     text-align: left;
@@ -337,7 +310,6 @@ nav{
     background: none;
     font-size: 20px;
     border: none;
-    /* border-radius: 20px; */
 }
 .section8-box2{
     display: flex;
@@ -347,7 +319,7 @@ nav{
 
 /* SECTION 9 */
 .section9{
-    /* outline: 2px solid red; */
+    color: #002e47;  
     padding: 30px;
 }
 .section9-title{
@@ -368,14 +340,13 @@ nav{
 
 /* SECTION 10 */
 .section10{
-    /* outline: 2px solid red; */
+    color: #002e47;  
     margin-top: 2cm;
     margin-bottom: 2cm;
     padding: 30px;
     text-align: center;
 }
 .section10-cards{
-    /* outline: 1px solid black; */
     display: flex;
     justify-content: space-evenly;
 }
@@ -384,7 +355,6 @@ nav{
     border-radius: 10px;
     width: 6cm;
     height: 8cm;
-    /* outline: 1px solid blue; */
     background-color: #F7F7FF;
 } 
 .card-img{
@@ -398,4 +368,464 @@ nav{
     border-radius: 20px;
     font-size: 500;
     width: 150px;
+}
+
+/* SECTION 11 */
+.section11{
+    color: #002e47;  
+    padding: 30px;
+}
+.section11-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+table{
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 100%;
+    flex-wrap: wrap;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 5px 0px rgba(223, 227, 233, 0.63);
+} 
+td{
+    padding: 20px;
+    /* border: 1px solid blue; */
+    /* border-radius: 10px;  */
+}
+.row{
+    background-color: #F7F7FF;
+}
+.second-txt, .third-txt, .last-txt{
+    text-align: center;
+    width: 120px;
+}
+
+
+
+/* SECTION 12 */
+.section12{
+    padding: 30px;
+    color: #002e47;  
+    display: flex;
+    justify-content: center;
+}
+.section12-title{
+    text-align: center;
+    padding: 30px; 
+    background-color: rgb(215, 234, 255);
+    border-radius: 20px;
+}
+.section12 button{
+    background-color: blue;
+    border: none;
+    border-radius: 20px;
+    padding: 20px; 
+    color: white;
+    font-size: large;
+}
+
+/* FOOTER SECTION */
+footer{
+    color: #002e47;  
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer p{
+    font-size: small;
+}
+footer a{
+    text-decoration: none;
+}
+footer input{
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+input:focus{
+    outline: none;
+}
+footer button{
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 17px; 
+    color: white;
+    font-size: normal;
+}
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES FOR MOBILE */
+
+@media screen and (max-width: 800px){
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999999;
+        background: white;
+        width: 100%;
+    } 
+    .hamburger{
+        background-color: blue;
+        display: block;
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 50%;
+        transform: translate(-5%, -50%);
+        z-index: 99999;
+        transition: all 0.7s ease;
+    }
+    .nav-links{
+        border-radius: 10px;
+        color: white;
+        background: #d0f2fa;
+        opacity: 1;
+        height: 10cm;
+        width: 100%;
+        flex-direction: column;        
+        -webkit-clip-path: circle(50px at 90% -10%);
+        transition: all 0.5s ease-out;
+        pointer-events: none;
+    }
+    .nav-links a{
+        color: white; 
+    }
+    .nav-links.open{
+        -webkit-clip-path: circle(1000px at 90% -10%);
+        pointer-events: all; 
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .nav-links li:nth-child(1){
+        transition: all 0.5s ease 0.2s;
+    }
+    .nav-links li:nth-child(2){
+        transition: all 0.5s ease 0.4s;
+    }
+    .nav-links li:nth-child(3){
+        transition: all 0.5s ease 0.6s;
+    }
+    .nav-links li:nth-child(4){
+        transition: all 0.5s ease 0.7s;
+    }
+    .nav-links li:nth-child(5){
+        transition: all 0.5s ease 0.8s;
+    }
+    .nav-links li:nth-child(6){
+        transition: all 0.5s ease 0.9s;
+        margin: 0;
+    }
+    .nav-links li:nth-child(7){
+        transition: all 0.5s ease 1s;
+        margin: 0;
+    }
+
+    li.fade{
+        opacity: 1;
+    }
+
+    /* Navigation Bar Icon on Click*/
+
+    .toggle .bars1{
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .toggle .bars2{
+        transition: all 0s ease;
+        width: 0;
+    }
+
+    .toggle .bars3{
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+    .reg button{
+        padding: 10px;
+        width: 100px; 
+    }
+
+
+
+/* HERO SECTION  */
+    .section1{
+        margin-top: 2cm;
+        font-size: 12px;
+        padding: 10px; 
+    }
+    .cover{
+        flex-direction: column;
+    }
+    .title{
+        height: auto;
+        width: auto;
+        /* line-height: 20px;  */
+    }
+    .title button{
+        padding: 14px;
+        width: 150px;
+        font-size: small;
+        border-radius: 10px;
+    }
+    .img1{
+        width: auto;
+    }
+
+
+/* SECTION 2 */
+    .section2{
+        padding: 10px;
+    }
+    .trusted{
+        width: auto;
+        border-radius: 20px;
+        padding: 10px;
+        font-size: small;
+    }
+    .proceed{
+        width: auto;
+        text-align: center;
+        font-size: small;
+    }
+    .section2-img{
+        height: 7cm;
+        width: auto;
+    }
+
+
+/* SECTION 3 */
+    .section3{
+        padding: 10px;
+        font-size: small;
+    }
+    .section3-cover{
+        border-radius: 20px;
+    }
+    .section3-title{
+        width: auto;
+    }
+    .section3-title h1{
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .section3-extra{
+        border-radius: 10px;
+    }
+
+
+/* SECTION 4 */
+    .section4{
+        padding: 10px;
+        font-size: small;
+    }
+    .section4-cover{
+        padding: 10px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section4-title{
+        width: auto;
+        padding: 10px;
+    }
+    .section4-title h1{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .section4-img{
+        height: 7cm;
+        width: auto;
+    }
+
+ /* SECTION 5 */
+    .section5{
+        padding: 10px;
+        font-size: small;
+    }
+    .section5-cover{
+        padding: 10px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section5-title{
+        width: auto;
+        padding: 10px;
+    }
+    .section5-title h1{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .section5-img{
+        height: 7cm;
+        width: auto;
+    }
+
+/* SECTION 6 */
+    .section6{
+        padding: 10px;
+        font-size: small;
+    }
+    .section6-cover{
+        padding: 10px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section6-title{
+        width: auto;
+        padding: 10px;
+    }
+    .section6-title h1{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .section6-img{
+        height: 7cm;
+        width: auto;
+    }
+
+ /* SECTION 7 */
+    .section7{
+        padding: 10px;
+        font-size: small;
+    }
+    .section7-cover{
+        padding: 10px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section7-title{
+        width: auto;
+        padding: 10px;
+    }
+    .section7-title h1{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .section7-img{
+        height: 7cm;
+        width: auto;
+    }
+
+
+/* SECTION 8 */
+    .section8{
+        /* outline: 2px solid blue; */
+        font-size: small;
+    }
+    .section8-boxes{
+        height: auto;
+        /* outline: 1px solid red; */
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+    .section8-box1{
+        width: auto;
+    }
+    .innerbox1{
+        padding: 10px;
+    }
+    .innerbox2 button{
+        padding: 10px;
+    }
+
+
+/* SECTION 9 */
+    .section9{
+        padding: 10px;
+    }
+    .section9-title{
+        padding: 10px;
+        /* line-height: 30px; */
+    }
+    .section9-cards{
+        gap: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+/* SECTION 10 */
+    .section10{ 
+        padding: 10px;
+        text-align: center;
+        font-size: small;
+    }
+    .section10-cards{
+        /* margin: 0;
+        padding: auto; */
+        height: auto;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: space-evenly;
+    }
+    .section10-card1, .section10-card2, .section10-card3{
+        padding: 10px;
+        width: auto;
+        height: 8cm;;
+    } 
+
+/* SECTION 11 */
+    .section11{
+        padding: 10px;
+        font-size: small;
+    }
+    td{
+        font-size: smaller;
+        padding: 3px;
+    }
+    .second-txt, .third-txt, .last-txt{
+        width: 50px;
+    }
+
+/* SECTION 12 */
+    .section12{
+        padding: 10px;
+        font-size: small;
+    }
+    .section12-title{
+        padding: 10px;
+    }
+    .section12 button{
+        padding: 10px; 
+        font-size: small;
+    }
+
+/* FOOTER SECTION */
+    footer{ 
+        padding: 10px;
+        flex-direction: column;
+    }
+    footer p{
+        font-size: small;
+    }
+    footer a{
+        text-decoration: none;
+    }
+    footer input{ 
+        height: 10px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    input:focus{
+        outline: none;
+    }
+    footer button{
+        background-color: blue;
+        border: none;
+        border-radius: 5px;
+        padding: 9px;
+        font-size: small;
+    }
+
 }
