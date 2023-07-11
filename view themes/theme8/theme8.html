@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>theme8</title>
+    <link rel="stylesheet" href="theme8.css">
+</head>  
+<body> 
+
+<div class="main">
+        <!-- The dots/circles -->
+        <div class="dots" style="text-align:center"> 
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+    <div class="slides"> 
+        <div class="mySlides fade">
+            <div class="slide-title"><h2>Title Here</h2></div>
+            <br> 
+            <div class="slide-img"><img src="theme8-img.jpg" alt="Theme8-img"></div>
+            <br>
+            <div class="lide-body">
+                <p>This is the body Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam perspiciatis aliquam dolorem magnam laudantium id ducimus sapiente perferendis consectetur corporis!</p>
+            </div> 
+        </div> 
+
+        <div class="mySlides fade">
+            <h1>2</h1>
+        </div>
+
+        <div class="mySlides fade">
+            <h1>3</h1>
+        </div>
+    </div>
+   
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+
+</body>
+<script src="../js/themes.js"></script>  
+</html>

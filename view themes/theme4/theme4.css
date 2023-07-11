@@ -66,5 +66,35 @@ body{
     *{
         font-size: small;
     }
+    .mySlides input{
+        width: 85.55%;
+        padding: 10px;
+    }
+    input:focus{
+        outline: none;
+    }
+    .mySlides button{
+        width: 100%;
 
+    }
+
+    .main{
+        padding: 20px;
+    } 
+    .slides{
+        height: 94%;
+        display: grid;
+        place-items: center;
+    }
+    .mySlides{
+        padding: 20px;
+        height: 100%;
+        width: 100%; 
+    }
+    .slide-img img{
+        height: 150px;
+    }
+    .slide-title{ 
+        text-align: center;
+    }
 }
