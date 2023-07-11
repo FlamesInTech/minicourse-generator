@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     font-family: "Montserrat";
@@ -97,4 +98,75 @@ body{
     .slide-title{ 
         text-align: center;
     }
+=======
+*{
+    margin: 0;
+    font-family: "Montserrat";
+}
+body{
+    background: url("buildings.jpg");
+    background-size: cover;
+} 
+.main{ 
+    overflow-y: auto;
+    height: 96.5vh;
+    padding: 10px;
+    margin: 2px;
+} 
+
+.dot{
+    outline: 1px solid black;
+    cursor: pointer;
+    height: 15px; 
+    width: 15px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+    background-color: rgba(0, 0, 0, 0.514);
+}
+.slides{
+    height: 94%;
+    display: grid;
+    place-items: center;
+}
+.mySlides{
+    padding: 20px;
+    color: #fff;
+    width: 50%;  
+    background: rgba(0, 0, 0, 0.514);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.prev, .next {
+    cursor: pointer;
+    position: fixed;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 11px;
+    border-radius: 3px 0 0 3px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    *{
+        font-size: small;
+    }
+
+>>>>>>> fa52e82528c0ae92e2e18999af79e5a94badd626
 }
