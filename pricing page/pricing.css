@@ -1,6 +1,5 @@
 *{
     font-family: "Montserrat";
-    /* outline: 1px solid red; */
 }
 nav{
     font-family: "Montserrat";
@@ -104,13 +103,11 @@ button{
     display: flex;
     justify-content: center;
     border-radius: 20px;
-    /* outline: 1px solid black; */
     gap: 3px;
 }
 .pricing-btn{
     display: flex;
     justify-content: center;
-    /* outline: 2px solid yellow; */
 }
 .pricing-buttons button{
     border: none;
@@ -298,7 +295,6 @@ section.faq {
 #faq p {
   color: #333;
   text-align: left;
-  /* font-family: 'hm_light', sans-serif; */
   font-size: 14px;
   line-height: 1.45;
   position: relative;
@@ -342,7 +338,7 @@ section.faq {
   position: absolute;
   transform: translate(-6px, 0);
   margin-top: 28px;
-  right: 15px;
+  right: 5px;
 }
 #faq ul li i:before, ul li i:after {
   content: "";
@@ -422,11 +418,9 @@ section.faq {
     border-radius: 20px;
     text-align: center;
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
-    background-color: #C1E2FB;    
-    /* width: auto; */
+    background-color: #C1E2FB;
     padding: 20px;
 }
 
@@ -568,5 +562,58 @@ footer button{
     .reg button{
         padding: 10px;
         width: 100px; 
+    }
+
+
+    .visible{
+        width: 100%;
+        justify-content: space-evenly;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .section5-cover{
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #C1E2FB;
+    }
+    .section5{
+        padding: 15px;
+    } 
+    .section5-img1{
+        width: 100%;
+    }
+    .section5-img1 img, .section5-img2 img{
+        width: 255px;
+    }
+    table,td,th{
+        width: 70%; 
+        border-collapse: collapse;
+    }
+    .section3-table{
+        padding: 0px;
+    }
+    table,td,th{
+        border: 1.5px solid #5fb5f7;
+        border-collapse: collapse;
+    }
+    th{
+        padding: 0px;
+        background: #c1e2fbc7;
+        text-align: left;
+    }
+    td:nth-child(1){
+        padding: 0px;
+        background: #c1e2fbc7;
+    }
+    td:nth-child(2), td:nth-child(3), td:nth-child(4){
+        text-align: center;
+    }
+    #faq {
+        width: 300px;
+      }
+    footer{
+        flex-direction: column-reverse;
     }
 }
